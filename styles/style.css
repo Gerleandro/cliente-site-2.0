@@ -6,3 +6,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: #130c07;
+}
+
+.logo {
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
