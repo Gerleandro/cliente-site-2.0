@@ -22,6 +22,10 @@ body {
     width: 100%;
 }
 
+p {
+    text-transform: capitalize;
+}
+
 /* ==========( HEADER )========== */
 
 header {
@@ -66,6 +70,7 @@ ul li {
 ul li a {
     color: #ddd;
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px #00000099;
@@ -100,11 +105,46 @@ ul li a:hover {
 
 /* ==========( MAIN - ITEN - ARTICLE - SECTIONS AND IMGS )========== */
 
+main {
+    margin: 2rem 0 2rem 0;
+    background-color: #000;
+    border-radius: 20px;
+}
+
 article {
     display: flex;
     flex-direction: row;
+    padding: 1rem 0 1rem 0;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
+article > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+article > section > img {
+    width: 240px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+img:hover {
+    border: 2px solid #550000;
+}
+
+.iten > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+}
 
 
 /* ==========( FOOTER )========== */

@@ -52,6 +52,10 @@
         margin: 1rem 0 1rem 0;
     }
 
+    ul li a {
+        font-size: 1rem !important;
+    }
+
 }
 
 
@@ -65,5 +69,9 @@
 
     .subtitle {
         height: 4rem !important;
+    }
+
+    ul li a {
+        font-size: .7rem !important;
     }
 }
