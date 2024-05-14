@@ -1,0 +1,69 @@
+/* ==========( 770px )========== */
+
+@media screen and (max-width: 770px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 4rem !important;
+    }
+
+    .subtitle {
+        height: 8rem !important;
+    }
+}
+
+
+/* ==========( 670px )========== */
+
+@media screen and (max-width: 670px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 3rem !important;
+    }
+
+    .subtitle {
+        height: 7rem !important;
+    }
+}
+
+
+/* ==========( 570px )========== */
+
+@media screen and (max-width: 570px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 2rem !important;
+    }
+
+    .subtitle {
+        height: 5rem !important;
+    }
+
+    .contents {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width:100% !important;
+    }
+
+    .contacts, .services, .all-midias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0 1rem 0;
+    }
+
+}
+
+
+/* ==========( 350px )========== */
+
+@media screen and (max-width: 350px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 1.5rem !important;
+    }
+
+    .subtitle {
+        height: 4rem !important;
+    }
+}

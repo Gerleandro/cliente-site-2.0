@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../components/fonts/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fatface';
+    src: url('../components/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../components/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
