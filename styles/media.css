@@ -22,7 +22,7 @@
 
 /* ==========( 770px )========== */
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 750px){
     .subtitle > h1 {
         transition: .7s;
         font-size: 4rem !important;
@@ -31,7 +31,34 @@
     .subtitle {
         height: 8rem !important;
     }
+
+    .instagram {
+        width: 45px !important;
+    }
+    .facebook {
+        width: 39px !important;
+    }
+    .whatsapp {
+        width: 45px !important;
+    }
+
+    .midias-icons {
+        position: relative;
+        left: 0.5em !important;
+        top: 17em;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 2em;
+         width:65px;
+     }
 }
+
+
 
 
 /* ==========( 670px )========== */
