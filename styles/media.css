@@ -59,8 +59,8 @@
 
     .midias-icons {
         position: relative;
-        left: 2.5em;
-        top: 12em !important;
+        left: 2.5em !important;
+        top: 13.5em !important;
         width: 0;
         height: 0;
      }
@@ -68,7 +68,7 @@
      .midias-icons > ul {
          display: flex;
          flex-direction: column;
-         gap: 2em;
+         gap: 3em !important;
          width:65px;
      }
 }
@@ -87,6 +87,20 @@
     .subtitle {
         height: 7rem !important;
     }
+    .midias-icons {
+        position: relative;
+        left: 2.5em !important;
+        top: 12.5em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3em !important;
+         width:65px;
+     }
 }
 
 
@@ -120,6 +134,21 @@
         font-size: 1rem !important;
     }
 
+    .midias-icons {
+        position: relative;
+        left: 2.5em !important;
+        top: 10.5em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3em !important;
+         width:65px;
+     }
+
 }
 
 
@@ -138,4 +167,19 @@
     ul li a {
         font-size: .7rem !important;
     }
+
+    .midias-icons {
+        position: relative;
+        left: 2.5em !important;
+        top: 9.5em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3em !important;
+         width:65px;
+     }
 }
