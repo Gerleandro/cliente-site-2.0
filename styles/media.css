@@ -1,3 +1,25 @@
+/* ==========( 1340px )========== */
+
+@media screen and (max-width: 1340px) {
+    article > section > img {
+        transition: .4s !important;
+        width: 240px !important;
+        height: 200px !important;
+    }
+}
+
+/* ==========( 1040px )========== */
+
+
+@media screen and (max-width: 1040px) {
+    article > section > img {
+        transition: .4s !important;
+        width: 140px !important;
+        height: 100px !important;
+    }
+}
+
+
 /* ==========( 770px )========== */
 
 @media screen and (max-width: 770px){
