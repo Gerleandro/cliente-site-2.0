@@ -32,30 +32,11 @@
         height: 8rem !important;
     }
 
-    .instagram {
-        width: 45px !important;
-    }
-    .facebook {
-        width: 39px !important;
-    }
-    .whatsapp {
-        width: 45px !important;
-    }
-
-    .midias-icons {
-        position: relative;
-        left: 0.5em !important;
-        top: 17em;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 2em;
-         width:65px;
-     }
+   .midias-icons > ul {
+    display: flex;
+    flex-direction: row !important;
+   }
+   
 }
 
 
