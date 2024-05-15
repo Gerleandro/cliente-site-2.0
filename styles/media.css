@@ -23,6 +23,11 @@
 /* ==========( 770px )========== */
 
 @media screen and (max-width: 750px){
+
+    .iten {
+        margin-top: 60px !important;
+    }
+
     .subtitle > h1 {
         transition: .7s;
         font-size: 4rem !important;
@@ -32,11 +37,40 @@
         height: 8rem !important;
     }
 
-   .midias-icons > ul {
-    display: flex;
-    flex-direction: row !important;
-   }
-   
+    .midias-icons > ul {
+        display: flex;
+        transition: 0.4s !important;
+        flex-direction: row !important;
+    }
+
+    .instagram {
+        transition: 0.4s !important;
+        width: 45px !important;
+    }
+    .facebook {
+        transition: 0.4s !important;
+        width: 39px !important;
+    }
+
+    .whatsapp {
+        transition: 0.4s !important;
+        width: 45px !important;
+    }
+
+    .midias-icons {
+        position: relative;
+        left: 2.5em;
+        top: 12em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 2em;
+         width:65px;
+     }
 }
 
 
