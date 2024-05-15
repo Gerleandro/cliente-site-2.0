@@ -78,7 +78,7 @@ ul li a {
 ul li a:hover {
     transition: .4s;
     color: #fff;
-}
+}    
 
 .subtitle > h1{
     font-family: 'Lobster';
@@ -103,9 +103,52 @@ ul li a:hover {
     cursor: pointer;
 }
 
+.midias-icons {
+   position: relative;
+   left: 2.5em;
+   top: 17em;
+   width: 0;
+   height: 0;
+}
+
+.midias-icons > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width:65px;
+}
+
+.instagram {
+    width: 65px;
+}
+.facebook {
+    width: 59px;
+}
+.whatsapp {
+    width: 65px;
+}
+
+.icon {
+    border:none !important;
+}
+.icon:hover {
+    transition: .4s;
+    transform:scale(1.1);
+}
+
 /* ==========( MAIN - ITEN - ARTICLE - SECTIONS AND IMGS )========== */
 
 main {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.iten {
+    display: flex;
+    flex-direction: column;
     margin: 2rem 0 2rem 0;
     background-color: #000;
     border-radius: 20px;
@@ -118,6 +161,7 @@ article {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 
 article > section {
@@ -129,14 +173,15 @@ article > section {
 }
 
 article > section > img {
-    width: 240px;
-    height: 200px;
+    width: 340px;
+    height: 300px;
     border: none;
     border-radius: 10px;
 }
 
 img:hover {
-    border: 2px solid #550000;
+    border: 2px solid #551f00;
+    cursor: pointer;
 }
 
 .iten > h2 {
@@ -144,6 +189,7 @@ img:hover {
     justify-content: center;
     font-family: 'poppins', sans-serif;
     text-transform: capitalize;
+    background: linear-gradient(45deg, transparent, #551f0099, transparent);
 }
 
 
