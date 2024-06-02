@@ -48,6 +48,7 @@ header {
     font-size: 20px;
     text-align: center;
 }
+
 .btn-scheduling:hover {
     transition: 0.4s;
     transform: scale(1.1);
