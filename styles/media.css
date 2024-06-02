@@ -10,7 +10,6 @@
 
 /* ==========( 1040px )========== */
 
-
 @media screen and (max-width: 1040px) {
     article > section > img {
         transition: .4s !important;
@@ -20,9 +19,31 @@
 }
 
 
+/* ==========( 955px )========== */
+
+@media screen and (max-width: 955px) {
+    .btn-scheduling { 
+        width:180px !important;
+    }
+}
+
+
+/* ==========( 835px )========== */
+
+@media screen and (max-width: 835px) {
+    .subtitle {
+        height: 7rem !important;
+    }
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 4rem !important;
+    }
+}
+
+
 /* ==========( 770px )========== */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 770px){
 
     .iten {
         margin-top: 60px !important;
@@ -59,7 +80,7 @@
 
     .midias-icons {
         position: relative;
-        left: 2.5em !important;
+        left: 13.5em !important;
         top: 13.5em !important;
         width: 0;
         height: 0;
@@ -68,11 +89,23 @@
      .midias-icons > ul {
          display: flex;
          flex-direction: column;
-         gap: 3em !important;
+         gap: 5em !important;
          width:65px;
      }
+
 }
 
+/* ==========( 717px )========== */
+
+@media screen and (max-width: 717px) {
+    .subtitle {
+        height: 8rem !important;
+    }
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 3.5rem !important;
+    }
+}
 
 
 
@@ -89,7 +122,7 @@
     }
     .midias-icons {
         position: relative;
-        left: 2.5em !important;
+        left: 12.5em !important;
         top: 12.5em !important;
         width: 0;
         height: 0;
@@ -101,6 +134,24 @@
          gap: 3em !important;
          width:65px;
      }
+
+     .btn-scheduling {
+        top: 0.5rem !important;
+        height: 40px !important;
+     }
+}
+
+
+/* ==========( 600px )========== */
+
+@media screen and (max-width: 600px) {
+    .subtitle {
+        height: 7rem !important;
+    }
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 2.7rem !important;
+    }
 }
 
 
@@ -136,7 +187,7 @@
 
     .midias-icons {
         position: relative;
-        left: 2.5em !important;
+        left: 9.5em !important;
         top: 10.5em !important;
         width: 0;
         height: 0;
@@ -149,6 +200,88 @@
          width:65px;
      }
 
+}
+
+/* ==========( 480px )========== */
+
+@media screen and (max-width: 480px){
+    .btn-scheduling {
+        width: 150px !important;
+        top:0.5rem;
+    }
+}
+
+
+/* ==========( 450px )========== */
+
+@media screen and (max-width: 450px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 2rem !important;
+    }
+
+    .subtitle {
+        height: 5rem !important;
+    }
+
+    .contents {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width:100% !important;
+    }
+
+    .contacts, .services, .all-midias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0 1rem 0;
+    }
+
+    ul li a {
+        font-size: 1rem !important;
+    }
+
+    .midias-icons {
+        position: relative;
+        left: 5.9em !important;
+        top: 10.5em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3em !important;
+         width:65px;
+     }
+
+     .btn-scheduling {
+        top:0.2rem !important;
+
+     }
+
+}
+
+
+/* ==========( 350px )========== */
+
+@media screen and (max-width: 400px){
+    .midias-icons {
+        position: relative;
+        left: 4.9em !important;
+        top: 10.5em !important;
+        width: 0;
+        height: 0;
+     }
+     
+     .midias-icons > ul {
+         display: flex;
+         flex-direction: column;
+         gap: 3em !important;
+         width:65px;
+     }
 }
 
 
@@ -170,7 +303,7 @@
 
     .midias-icons {
         position: relative;
-        left: 2.5em !important;
+        left: 3.5em !important;
         top: 9.5em !important;
         width: 0;
         height: 0;
@@ -182,4 +315,10 @@
          gap: 3em !important;
          width:65px;
      }
+
+     .btn-scheduling {
+        top:0.2rem !important;
+
+     }
+
 }

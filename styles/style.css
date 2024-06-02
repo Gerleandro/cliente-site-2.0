@@ -37,6 +37,23 @@ header {
     background-color: #000;
 }
 
+.btn-scheduling {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 0.8rem;
+    background-color: #550000;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+.btn-scheduling:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .logo > p {
     color: #eee;
     font-family: "Lobster", sans-serif;
@@ -99,6 +116,7 @@ ul li a:hover {
     width: 100%;
     height: 10rem;
 }
+
 .subtitle:hover {
     cursor: pointer;
 }
@@ -212,6 +230,10 @@ footer > .contents {
     flex-direction: row;
     width: 100%;
     margin: 1rem 0 1rem 0;
+}
+
+footer > .contents > div > h2 {
+    text-decoration: underline;
 }
 
 footer > .copyright { 
