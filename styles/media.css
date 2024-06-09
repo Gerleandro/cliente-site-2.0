@@ -288,6 +288,16 @@
 }
 
 
+/* ==========( 391px )========== */
+
+@media screen and (max-width: 391px){
+    .subtitle > h1 {
+        transition: .7s;
+        font-size: 1.2rem !important;
+    }
+}
+
+
 /* ==========( 350px )========== */
 
 @media screen and (max-width: 350px){

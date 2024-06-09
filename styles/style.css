@@ -112,7 +112,7 @@ ul li a:hover {
 }
 
 .subtitle { 
-    background-image: url('../components/imgs/backgrounds/background-table-nature.jpg');
+    background-image: url('../assects/imgs/backgrounds/background-table-nature.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,11 +193,20 @@ article > section {
     margin: 1rem;
 }
 
+article > section > h4 {
+    margin:.5em;
+
+}
+
 article > section > img {
     width: 340px;
     height: 300px;
     border: none;
     border-radius: 10px;
+}
+
+article > section > p {
+    margin:.5em;
 }
 
 img:hover {
@@ -217,6 +226,27 @@ img:hover {
 /* ==========( FOOTER )========== */
 
 
+.services > p > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: .3em;
+}
+.all-midias > p > a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: .3em;
+}
+.contacts > p {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: .3em;
+}
+
+
+
 footer {
     background: #111;
     display: flex;
@@ -224,6 +254,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;    
+    font-family: "poppins", sans-serif;
 }
 
 footer > .contents {
