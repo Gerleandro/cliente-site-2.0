@@ -217,7 +217,7 @@
 @media screen and (max-width: 450px){
     .subtitle > h1 {
         transition: .7s;
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
 
     .subtitle {
@@ -265,7 +265,7 @@
 }
 
 
-/* ==========( 350px )========== */
+/* ==========( 400px )========== */
 
 @media screen and (max-width: 400px){
     .midias-icons {
@@ -281,6 +281,9 @@
          flex-direction: column;
          gap: 3em !important;
          width:65px;
+     }
+     footer {
+        text-align: center !important;
      }
 }
 
@@ -318,7 +321,11 @@
 
      .btn-scheduling {
         top:0.2rem !important;
+        font-size:1em !important;
+     }
 
+     footer {
+        text-align: center !important;
      }
 
 }
