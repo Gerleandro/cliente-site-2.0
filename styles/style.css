@@ -1,5 +1,6 @@
 @import url('fonts.css');
 @import url('media.css');
+@import url('root.css');
 
 * {
     margin: 0;
@@ -34,7 +35,7 @@ header {
     align-items: center;
     width: 100vw;
     height: 80px;
-    background-color: #000;
+    background-color: var(--bgBasic);
 }
 
 .btn-scheduling {
@@ -171,7 +172,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 2rem 0 2rem 0;
-    background-color: #000;
+    background-color: var(--bgBasic);
     border-radius: 20px;
 }
 
@@ -271,7 +272,7 @@ footer > .contents > div > h2 {
 }
 
 footer > .copyright { 
-    background: #000;
+    background: var(--bgBasic);
     display: flex;
     align-items: center;
     justify-content: center;
