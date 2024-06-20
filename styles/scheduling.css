@@ -62,13 +62,12 @@ main {
 form > div > label {
     font-weight: bold;
     text-transform: uppercase;
-
-    width: 300px;
+    width: 18.5rem;
 }
 form > div > input {
     color: black;
     height: 40px;
-    width: 300px;
+    width:15em;
     font-size: 20px;
     text-transform: uppercase;
     outline: none;
@@ -135,3 +134,13 @@ form {
     flex-direction: column;
 
 }
+
+ .submit {
+    background-color: red;
+    width: 10em;
+    height: 4em;
+    border:none;
+    border-radius: 8px;
+    font-size: 30px;
+    color: black
+ }

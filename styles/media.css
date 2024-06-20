@@ -25,6 +25,14 @@
     .btn-scheduling { 
         width:180px !important;
     }
+
+    form {
+        width: 300px !important;
+    }
+
+    hr {
+        width:50% !important;
+    }
 }
 
 
