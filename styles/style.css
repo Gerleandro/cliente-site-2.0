@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins", sans-serif;
-    color: #ddd;
+    color: var(--grayColor);
 }
 
 body {
@@ -164,6 +164,7 @@ main {
     display: flex;  
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     
 }
@@ -216,6 +217,14 @@ img:hover {
 }
 
 .iten > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    text-transform: capitalize;
+    background: linear-gradient(45deg, transparent, #551f0099, transparent);
+}
+
+.price > h2 {
     display: flex;
     justify-content: center;
     font-family: 'poppins', sans-serif;

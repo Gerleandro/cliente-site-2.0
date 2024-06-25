@@ -1,4 +1,12 @@
 :root {
     --bgBasic: #000;
-    --bgcolor: #eea57b;
+    --bgColor: #eea57b;
+
+    --grayColor: #dbdbdb;
+
+    /* --bgcolor1:;
+    --bgcolor2:;
+    --bgcolor3:;
+    --bgcolor4:;
+    --bgcolor5:; */
 }
