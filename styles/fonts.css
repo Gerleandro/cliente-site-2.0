@@ -1,17 +1,38 @@
 
+/* LOBSTER */
 @font-face {
     font-family: 'Lobster';
     src: url('../assects/fonts/Lobster-Regular.ttf') format('truetype');
 }
 
+/* FATFACE */
 @font-face {
     font-family: 'fatface';
     src: url('../assects/fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
 }
 
-
+/* POPPINS */
 @font-face {
-    font-family: 'poppins';
-    src: url('../assects/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-family: 'Poppins-Black';
+    src: url('../assects/fonts/Poppins/Poppins-Black.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../assects/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../assects/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../assects/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../assects/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}

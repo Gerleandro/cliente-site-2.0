@@ -169,102 +169,52 @@ main {
     
 }
 
-.iten {
+.about-main {
     display: flex;
     flex-direction: column;
     margin: 2rem 0 2rem 0;
     background-color: var(--bgBasic);
-    border-radius: 20px;
+    border-radius: 20px;  
+    align-items: center; 
+    justify-content: center;   
 }
-
-article {
+.about-main > article {
     display: flex;
-    flex-direction: row;
-    padding: 1rem 0 1rem 0;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: 20px;
-}
-
-article > section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 1rem;
+    justify-content: center;
+    flex-direction: column;
 }
 
-article > section > h4 {
-    margin:.5em;
 
+.perf {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-article > section > img {
+.perf > h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.perf > img {
     width: 340px;
     height: 300px;
     border: none;
     border-radius: 10px;
 }
 
-article > section > p {
-    margin:.5em;
-}
-
-img:hover {
-    border: 2px solid #551f00;
-    cursor: pointer;
-}
-
-.iten > h2 {
+.hist {
+    /* background: green; */
     display: flex;
-    justify-content: center;
-    font-family: 'poppins', sans-serif;
-    text-transform: uppercase;
-    background: linear-gradient(45deg, transparent, #551f0099, transparent);
-}
-
-.price {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0 2rem 0;
-    background-color: var(--bgBasic);
-    border-radius: 20px;
-    width: 55%;
-    justify-content: center;
     align-items: center;
-}
-
-.price > h2 {
-    display: flex;
-    width: 100%;
     justify-content: center;
-    font-family: 'poppins', sans-serif;
-    text-transform: uppercase;
-    background: linear-gradient(45deg, transparent, #551f0099, transparent);
-}
-
-.price > section {
-    display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: 1em;
 }
 
-.price > section > article {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.flavor {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-}
-
-.price-p {
-
-}
 
 
 /* ==========( FOOTER )========== */
