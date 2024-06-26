@@ -254,6 +254,7 @@ img:hover {
 .price > section > article {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     
 }
 
@@ -263,7 +264,7 @@ img:hover {
 }
 
 .price-p {
-
+    flex-wrap: nowrap;
 }
 
 
