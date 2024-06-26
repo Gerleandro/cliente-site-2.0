@@ -43,7 +43,7 @@ header {
     height: 60px;
     position: relative;
     top: 0.8rem;
-    background-color: #550000;
+    background-color: var(--bgColor2);
     border: none;
     text-transform: uppercase;
     font-size: 20px;
