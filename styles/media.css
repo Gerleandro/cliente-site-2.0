@@ -217,6 +217,9 @@
         width: 150px !important;
         top:0.5rem;
     }
+    .item-cuts {
+        border-radius:0px !important;
+    }    
 }
 
 
