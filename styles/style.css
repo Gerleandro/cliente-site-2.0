@@ -11,12 +11,13 @@
 }
 
 body {
-    background: #222;
+    background: url('../assects/imgs/backgrounds/pexels-cristian-rojas-8867162.jpg');
     display: flex;
     width: 100vw;
 }
 
 .container {
+    background: #00000099;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +170,7 @@ main {
     
 }
 
-.iten {
+.item-cuts {
     display: flex;
     flex-direction: column;
     margin: 2rem 0 2rem 0;
@@ -216,7 +217,8 @@ img:hover {
     cursor: pointer;
 }
 
-.iten > h2 {
+
+.item-cuts > h2 {
     display: flex;
     justify-content: center;
     font-family: 'poppins', sans-serif;
@@ -224,16 +226,17 @@ img:hover {
     background: linear-gradient(45deg, transparent, #551f0099, transparent);
 }
 
-.price {
+
+ .price {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0 2rem 0;
-    background-color: var(--bgBasic);
+    background-color: var(--bgBasic);    
+    padding: 0 5em 0 5em;
+    margin-bottom: 1em;
     border-radius: 20px;
-    width: 55%;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .price > h2 {
     display: flex;
@@ -244,27 +247,32 @@ img:hover {
     background: linear-gradient(45deg, transparent, #551f0099, transparent);
 }
 
-.price > section {
+.tabela {
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 1em;
+    flex-direction: row;
+    gap: 5em;
 }
 
-.price > section > article {
+.price > .tabela > section > article {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    
+    justify-content:space-between;
 }
 
 .flavor {
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
+    
 }
 
 .price-p {
-    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 5px;
+    border-radius: 0 0 0 .3em;
+    border-left:2px solid var(--grayColor);
+    border-bottom:2px solid var(--grayColor);
+    margin-left: 5px;
 }
 
 
