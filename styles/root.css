@@ -1,9 +1,13 @@
 :root {
     --bgBasic: #00000099;
-    --bgColor: #eea57b;
+    --bgBasic2: #551f0099;
 
+    --bgColor0: #eea57b;
     --bgColor1: #551800;
-    --bgColor2:#550000;
+    --bgColor2: #550000;
+    --bgColor3: #551f00;
+    --bgColor4: #111111;
 
     --grayColor: #dbdbdb;
+    --whiteColor: #ffffff;
 }

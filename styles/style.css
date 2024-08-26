@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    background: #00000099;
+    background: var(--bgBasic);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,17 +65,17 @@ header {
     font-weight: bold;
     font-size: 2rem;
     text-decoration: line-through;
-    border: 5px solid #fff;
+    border: 5px solid var(--whiteColor);
     border-radius: 50%;
     border-style: dotted;
     padding: .1rem 1rem .1rem 1rem;
-    text-shadow: 2px 5px 0 #550000;
-    border-color: #ccc;
+    text-shadow: 2px 5px 0 var(--bgColor2);
+    border-color: var(--grayColor);
 }
 .logo:hover, .logo > p:hover{
     cursor: pointer;
     transition: .4s;
-    color: #fff;
+    color: var(--whiteColor);
 }
 
 ul {
@@ -90,12 +90,12 @@ ul li {
 }
 
 ul li a {
-    color: #ddd;
+    color: var(--grayColor);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
-    text-shadow: 2px 2px 3px #00000099;
+    text-shadow: 2px 2px 3px var(--bgBasic);
 }
 ul li a:hover {
     transition: .4s;
@@ -105,8 +105,8 @@ ul li a:hover {
 .subtitle > h1{
     font-family: 'Lobster';
     font-size: 5rem;
-    color: #ddd;
-    text-shadow: 5px 5px 5px #00000099;
+    color: var(--grayColor);
+    text-shadow: 5px 5px 5px var(--bgBasic);
     text-decoration: underline;
     padding: 0.5rem 2rem 0.5rem 2rem;
     background-color: transparent;
@@ -164,10 +164,10 @@ ul li a:hover {
 main {
     display: flex;  
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     width: 100%;
-    
+    gap: 2em;
 }
 
 .item-cuts {
@@ -181,7 +181,6 @@ main {
 article {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0 1rem 0;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
@@ -198,7 +197,6 @@ article > section {
 
 article > section > h4 {
     margin:.5em;
-
 }
 
 article > section > img {
@@ -213,67 +211,54 @@ article > section > p {
 }
 
 img:hover {
-    border: 2px solid #551f00;
+    border: 2px solid var(--bgColor3);
     cursor: pointer;
 }
-
 
 .item-cuts > h2 {
     display: flex;
     justify-content: center;
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
-    background: linear-gradient(45deg, transparent, #551f0099, transparent);
+    background: linear-gradient(45deg, transparent, var(--bgBasic2), transparent);
 }
 
-
  .price {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--bgBasic);    
-    padding: 0 5em 0 5em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    background-color: var(--bgBasic);
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
+    
 } 
 
 .price > h2 {
     display: flex;
     width: 100%;
+    margin-bottom: .5em;
     justify-content: center;
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
-    background: linear-gradient(45deg, transparent, #551f0099, transparent);
+    background: linear-gradient(45deg, transparent, var(--bgBasic2), transparent);
 }
 
-/* .tabela {
+.price .tabela > section > article {
     display: flex;
-    flex-direction: row;
-    gap: 5em;
-} */
-
-.price > .tabela > section > article {
-    display: flex;
+    flex-direction: column;
     justify-content:space-between;
+    text-align: center;
 }
 
 .flavor {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5em;
-    
+    font-weight: bold;
+    background-color: var(--bgColor2);
 }
 
 .price-p {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     font-size: 1.5em;
-    padding: 5px;
-    border-radius: 0 0 0 .3em;
-    border-left:2px solid var(--grayColor);
-    border-bottom:2px solid var(--grayColor);
-    margin-left: 5px;
+    padding-bottom: .3em;
 }
 
 
@@ -283,7 +268,7 @@ img:hover {
 .services > p > a {
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin-top: .3em;
 }
 .all-midias > p > a {
@@ -299,10 +284,13 @@ img:hover {
     margin-top: .3em;
 }
 
-
+.all-midias > p > a:hover {
+    transition: .4s;
+    color: var(--bgColor0)
+}
 
 footer {
-    background: #111;
+    background: var(--bgColor4);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,5 +325,5 @@ footer > .copyright {
 }
 .copyright > p > a:hover {
     transition: 0.4s;
-    color: #550000;
+    color: var(--bgColor2);
 }
