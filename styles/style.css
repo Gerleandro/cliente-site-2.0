@@ -165,7 +165,7 @@ main {
     display: flex;  
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     
 }
@@ -236,6 +236,7 @@ img:hover {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    width: 400px;
 } 
 
 .price > h2 {
@@ -247,11 +248,11 @@ img:hover {
     background: linear-gradient(45deg, transparent, #551f0099, transparent);
 }
 
-.tabela {
+/* .tabela {
     display: flex;
     flex-direction: row;
     gap: 5em;
-}
+} */
 
 .price > .tabela > section > article {
     display: flex;
