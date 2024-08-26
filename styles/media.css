@@ -49,6 +49,25 @@
 }
 
 
+/* ==========( 794px )========== */
+
+@media screen and (max-width: 794px) {
+    main {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .price {
+        margin:0 !important;
+    }
+    footer {
+        margin-top: 1em !important;
+    }
+}
+
+
+
 /* ==========( 770px )========== */
 
 @media screen and (max-width: 770px){
