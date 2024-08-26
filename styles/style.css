@@ -164,7 +164,7 @@ ul li a:hover {
 main {
     display: flex;  
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     width: 100%;
     gap: 2em;
@@ -175,7 +175,6 @@ main {
     flex-direction: column;
     margin: 2rem 0 2rem 0;
     background-color: var(--bgBasic);
-    border-radius: 20px;
 }
 
 article {
@@ -225,9 +224,7 @@ img:hover {
 
  .price {
     margin-top: 2em;
-    background-color: var(--bgBasic);
-    border-radius: 20px;
-    
+    background-color: var(--bgBasic);    
 } 
 
 .price > h2 {
