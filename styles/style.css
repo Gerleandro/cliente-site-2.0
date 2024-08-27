@@ -130,11 +130,6 @@ ul li a:hover {
     display: flex;
     justify-content: center;
     margin: 1em;
-   /* position: relative;
-   left: 2.5em;
-   top: 17em;
-   width: 0;
-   height: 0; */
 }
 
 .midias-icons > ul {
@@ -158,7 +153,7 @@ ul li a:hover {
 }
 
 .icon {
-    border: 2px solid red;
+    border:0;
 }
 .icon:hover {
     transition: .4s;
