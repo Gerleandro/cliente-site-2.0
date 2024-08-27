@@ -139,7 +139,7 @@ ul li a:hover {
     align-items: center;
     gap: 2em;
     width:65px;
-    border:none;
+    border:0;
 }
 
 .instagram {
@@ -158,6 +158,7 @@ ul li a:hover {
 .icon:hover {
     transition: .4s;
     transform:scale(1.1);
+    border:0;
 }
 
 /* ==========( MAIN - ITEN - ARTICLE - SECTIONS AND IMGS )========== */
