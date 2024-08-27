@@ -127,18 +127,24 @@ ul li a:hover {
 }
 
 .midias-icons {
-   position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+   /* position: relative;
    left: 2.5em;
    top: 17em;
    width: 0;
-   height: 0;
+   height: 0; */
 }
 
 .midias-icons > ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 2em;
     width:65px;
+    border:none;
 }
 
 .instagram {
@@ -152,7 +158,7 @@ ul li a:hover {
 }
 
 .icon {
-    border:none !important;
+    border: 2px solid red;
 }
 .icon:hover {
     transition: .4s;
@@ -242,6 +248,7 @@ img:hover {
     flex-direction: column;
     justify-content:space-between;
     text-align: center;
+    gap: 0.5em;
 }
 
 .flavor {

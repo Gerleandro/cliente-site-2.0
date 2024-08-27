@@ -88,7 +88,6 @@
     .midias-icons > ul {
         display: flex;
         transition: 0.4s !important;
-        flex-direction: row !important;
     }
 
     .instagram {
@@ -104,21 +103,6 @@
         transition: 0.4s !important;
         width: 45px !important;
     }
-
-    .midias-icons {
-        position: relative;
-        left: 13.5em !important;
-        top: 13.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 5em !important;
-         width:65px;
-     }
 
 }
 
@@ -147,20 +131,6 @@
     .subtitle {
         height: 7rem !important;
     }
-    .midias-icons {
-        position: relative;
-        left: 12.5em !important;
-        top: 12.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3em !important;
-         width:65px;
-     }
 
      .btn-scheduling {
         top: 0.5rem !important;
@@ -212,21 +182,6 @@
         font-size: 1rem !important;
     }
 
-    .midias-icons {
-        position: relative;
-        left: 9.5em !important;
-        top: 10.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3em !important;
-         width:65px;
-     }
-
 }
 
 /* ==========( 480px )========== */
@@ -272,21 +227,6 @@
         font-size: 1rem !important;
     }
 
-    .midias-icons {
-        position: relative;
-        left: 5.9em !important;
-        top: 10.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3em !important;
-         width:65px;
-     }
-
      .btn-scheduling {
         top:0.2rem !important;
 
@@ -298,20 +238,6 @@
 /* ==========( 400px )========== */
 
 @media screen and (max-width: 400px){
-    .midias-icons {
-        position: relative;
-        left: 4.9em !important;
-        top: 10.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3em !important;
-         width:65px;
-     }
      footer {
         text-align: center !important;
      }
@@ -343,21 +269,6 @@
     ul li a {
         font-size: .7rem !important;
     }
-
-    .midias-icons {
-        position: relative;
-        left: 3.5em !important;
-        top: 9.5em !important;
-        width: 0;
-        height: 0;
-     }
-     
-     .midias-icons > ul {
-         display: flex;
-         flex-direction: column;
-         gap: 3em !important;
-         width:65px;
-     }
 
      .btn-scheduling {
         top:0.2rem !important;
